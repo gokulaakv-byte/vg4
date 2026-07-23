@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #121317;
+    color: #f0eee8;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+}
+
+/* Custom forensic evidence styling */
+.font-display {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.bg-docket-canvas {
+  background-color: #121317;
+}
+
+.bg-docket-card {
+  background-color: #1b1d22;
+}
+
+.bg-docket-subtle {
+  background-color: #16171c;
+}
+
+.border-docket {
+  border-color: #282a31;
+}
+
+.border-docket-subtle {
+  border-color: #1f2127;
+}
+
+.text-docket-bright {
+  color: #f0eee8;
+}
+
+.text-docket-muted {
+  color: #8f8e89;
+}
